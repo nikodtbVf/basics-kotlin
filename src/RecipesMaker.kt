@@ -4,19 +4,18 @@ val INGREDIENTS = listOf("Agua", "Leche", "Carne", "Verduras", "Frutas", "Cereal
 fun main(args: Array<String>) {
 
  
-    val selectedOption = 0;
-    var recipes: ArrayList<Recipe> = arrayListOf()
-    var readOption: String?
-    var recipeName: String?
-    var selectedIngredients = mutableListOf<String>()
+    var addingRecipes = true;
+    val recipes: ArrayList<Recipe> = arrayListOf()
+    var readOption: String? = ""
 
-    while (selectedOption != EXIT_OPTION) {
+    while (readOption != "3") {
         showMenu()
         readOption = readLine()
 
         when(readOption) {
             "1" -> recipes.add(makeRecipe())
             "2" -> showRecipes(recipes)
+            "3" -> println("Thank you. Bye")
             else -> println("Invalid Optión. Try Again.")
         }
     }
@@ -34,4 +33,43 @@ fun showMenu() {
             """.trimIndent()
 
     println(initText)
+}
+
+fun makeRecipe() : Recipe {
+    var addMoreIngredients = true
+    var response: String?
+    val recipe = Recipe()
+    recipe.name = readRecipeName()
+
+    while(addMoreIngredients) {
+        showIngredients()
+        println("Please select an Ingredient to add")
+        response = readLine()
+        var selectedIngredient: Int? = response?.toIntOrNull()
+
+        if (response?.toIntOrNull()?.compareTo(0) == 0){
+            addMoreIngredients = false
+        } else {
+            recipe.addIngredient(INGREDIENTS[selectedIngredient!!])
+        }
+    }
+    return recipe
+}
+
+fun readRecipeName() : String? {
+    println("Ingresa el nombre de la receta")
+    return readLine()
+}
+
+fun showIngredients() {
+    for((index, ingredient) in INGREDIENTS.withIndex()){
+        println("($index+1)- :$ingredient")
+    }
+    println("0-Finish Recipe")
+}
+
+fun showRecipes(recipes : ArrayList<Recipe>) {
+    for(recipe in recipes) {
+        recipe.printData()
+    }
 }

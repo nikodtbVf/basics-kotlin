@@ -7,4 +7,13 @@ class Recipe(
     fun addIngredient(ingredient: String?) {
         ingredients.add(ingredient)
     }
+
+    fun printData() {
+        println("Name: $name")
+        println("Ingredients: ")
+
+        for ((ingredient, index) in ingredients.withIndex()) {
+            println("$index - $ingredient")
+        }
+    }
 }

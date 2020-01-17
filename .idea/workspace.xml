@@ -2,32 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58ccb32e-7cb2-4ce0-9426-8c1a4bbe9e81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recipe.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RecipesMaker.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../canjeweb3.0" beforeDir="false" afterPath="$PROJECT_DIR$/../canjeweb3.0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../credex-api" beforeDir="false" afterPath="$PROJECT_DIR$/../credex-api" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../creditienda-qa" beforeDir="false" afterPath="$PROJECT_DIR$/../creditienda-qa" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../creditiendaapp" beforeDir="false" afterPath="$PROJECT_DIR$/../creditiendaapp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learning-kotlin/HolaMundoKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learning-kotlin/HolaMundoKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learning-kotlin/HolaMundoKt.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/learning-kotlin/META-INF/learning-kotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learning-kotlin/META-INF/learning-kotlin.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mioficina2.0" beforeDir="false" afterPath="$PROJECT_DIR$/../mioficina2.0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reports-front-qa/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reports-front-qa/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../reports-front-qa/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reports-front-qa/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../reports-front-qa/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reports-front-qa/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reports-front-qa/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reports-front-qa/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reports-front-qa/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reports-front-qa/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reports-front-qa/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reports-front-qa/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reports-front-qa/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reports-front-qa/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reports-front-qa/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reports-front-qa/src/registerServiceWorker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../utilities-qa" beforeDir="false" afterPath="$PROJECT_DIR$/../utilities-qa" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learning-kotlin/RecipesMakerKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learning-kotlin/RecipesMakerKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HolaMundo.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recipe.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recipe.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RecipesMaker.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/RecipesMaker.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +25,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1VqRqpgbqDu5tGmGrcJ55Ci4INK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -115,7 +97,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
